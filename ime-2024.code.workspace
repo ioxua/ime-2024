@@ -1,5 +1,6 @@
 {
   "folders": [
+    { name: "ROOT", path: "." },
     { name: "Aula 1", path: "aulas/aula1" },
     { name: "Aula 2", path: "aulas/aula2" },
     { name: "Aula 3", path: "aulas/aula3" },
