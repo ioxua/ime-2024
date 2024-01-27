@@ -1,0 +1,23 @@
+{
+  "name": "@ioxua/verao-ime-2024",
+  "version": "1.0.0",
+  "description": "## Organização",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:aula1": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioxua/ime-2024.git"
+  },
+  "author": "Yehoshua Oliveira <main@ioxua.com>",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/ioxua/ime-2024/issues"
+  },
+  "homepage": "https://github.com/ioxua/ime-2024#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
