@@ -1,7 +1,6 @@
 {
   "name": "@ioxua/verao-ime-2024",
   "version": "1.0.0",
-  "description": "## Organização",
   "main": "index.js",
   "scripts": {
     "dev": "live-server aulas --port=42069"

@@ -1,0 +1,51 @@
+<style>
+  .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    display: inline-block;
+    margin-right: 18px;
+  }
+
+  div.quadrado {
+    font-family: monospace;
+    border: 2px solid blue;
+  }
+
+  div#segundo {
+    font-family: Impact;
+    background-color: aqua;
+  }
+
+  #segundo, button.quadrado {
+    border: 3px dashed red;
+  }
+
+  .redondo {
+    border-radius: 15px;
+  }
+
+  /* (# ids),(# classes),(# elementos) */
+  div.quadrado span {
+    color: rgb(34, 34, 34);
+  }
+</style>
+
+<div class="quadrado">
+  <span>Quadrado 1</span>
+</div>
+<div class="quadrado" id="segundo">
+  <span>Quadrado 2</span>
+</div>
+<div class="quadrado">
+  <span>Quadrado 3</span>
+</div>
+<div class="quadrado redondo">
+  <span>Quadrado 4</span>
+</div>
+<div class="quadrado">
+  <span>Quadrado 5</span>
+</div>
+
+<button class="quadrado">Sou um botão</button>
