@@ -4,8 +4,7 @@
   "description": "## Organização",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:aula1": "live-server aulas/aula1 --port=42069"
+    "dev": "live-server aulas --port=42069"
   },
   "repository": {
     "type": "git",
