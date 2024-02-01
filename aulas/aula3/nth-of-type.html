@@ -1,0 +1,54 @@
+<style>
+  .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+
+    /* spacing */
+    display: inline-block;
+    margin-right: 18px;
+
+    /* border */
+    border: 5px solid red; /* esta linha corresponde às próximas três */
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+  }
+
+  .quadrado:nth-of-type(2n-1) {
+    background-color: cadetblue;
+    font-size: 2em;
+  }
+
+  .quadrado.estrela {
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+
+  p {
+    text-align: start;
+  }
+</style>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero id laborum
+  obcaecati, mollitia fuga eaque ut praesentium repellendus nesciunt possimus
+  expedita consequatur et a commodi officia, voluptates eveniet ipsa at!
+</p>
+
+<div class="quadrado">sou o 1</div>
+<div class="quadrado">sou o 2</div>
+<div class="quadrado">sou o 3</div>
+<div class="quadrado">sou o 4</div>
+<div class="quadrado estrela">sou o 5</div>

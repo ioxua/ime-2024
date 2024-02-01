@@ -1,0 +1,47 @@
+<style>
+  .on-hover:hover {
+    background-color: red;
+  }
+
+  input[type="button"]:disabled {
+    font-family: Impact;
+  }
+
+  a:visited {
+    color: red;
+  }
+  a:active {
+    background-color: blue;
+  }
+  input:checked {
+    outline: 5px solid blueviolet;
+  }
+  :focus-visible {
+    outline: 5px solid red;
+  }
+  a:first-of-type {
+    font-family: monospace;
+  }
+</style>
+
+<button class="on-hover">Passe o mouse por cima de mim</button> <br />
+<input type="button" value="Tente clicar em mim" disabled> <br />
+<a href="https://google.com">Ir pro google</a>
+<a href="https://ioxua.com/qweqw">Ir pro bing</a>
+<br />
+
+<input type="text" placeholder="digite em mim"><br />
+
+<form action="">
+  <fieldset>
+    <legend>Exemplo de checkbox</legend>
+    <input type="checkbox" name="meu-checkbox" value="ch1" /> checkbox 1<br />
+    <input type="checkbox" name="meu-checkbox" value="ch2" /> checkbox 2<br />
+  </fieldset>
+  <fieldset>
+    <legend>Exemplo de radiobuttons</legend>
+    <input type="radio" name="meu-radio" value="rd1" /> radio 1<br />
+    <input type="radio" name="meu-radio" value="rd2" /> radio 2<br />
+  </fieldset>
+  <input type="submit" value="Enviar">
+</form>

@@ -1,20 +1,10 @@
 {
   "name": "@ioxua/verao-ime-2024",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "live-server aulas --port=42069"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ioxua/ime-2024.git"
-  },
   "author": "Yehoshua Oliveira <main@ioxua.com>",
-  "license": "MIT ",
-  "bugs": {
-    "url": "https://github.com/ioxua/ime-2024/issues"
-  },
-  "homepage": "https://github.com/ioxua/ime-2024#readme",
+  "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2",
     "nodemon": "^3.0.3"
