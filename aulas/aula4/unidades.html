@@ -1,0 +1,47 @@
+<style>
+  html {
+    font-size: 18px;
+  }
+
+  main {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+  }
+
+  .quadrado {
+    background-color: aqua;
+    /* margin-right: 15px; */
+
+    &.cm-2 {
+      width: 2cm;
+      height: 2cm;
+    }
+
+    &.rem-2 {
+      /* 2 * 18px (<html>) = 36px */
+      width: 2rem;
+      height: 2rem;
+      background-color: red;
+    }
+
+    &.em-2 {
+      /* 2 * 24px (<main>) = 48px */
+      width: 2em;
+      height: 2em;
+      background-color: blue;
+    }
+
+    &.vh-50 {
+      width: 50vw;
+      height: 50vh;
+    }
+  }
+</style>
+
+<main>
+  <div class="quadrado cm-2"></div>
+  <div class="quadrado rem-2"></div>
+  <div class="quadrado em-2"></div>
+  <div class="quadrado vh-50"></div>
+</main>
