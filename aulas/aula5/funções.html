@@ -1,0 +1,41 @@
+<script>
+  func1()
+  // func2()
+
+  function func1() {
+    console.log('func1')
+  }
+
+  const func2 = function() {
+    console.log('func2')
+  }
+
+  const func3 = function funcTrês() {
+    console.log('func2')
+  }
+  func2()
+  func3()
+
+  function dizerOi(nome) {
+    console.log('olá', nome)
+  }
+
+  console.log('funções:', func1, func2, func3)
+
+  // lambdas
+  const func4 = () => {
+    console.log('func4')
+  }
+  func4()
+
+  console.log('lambdas:', func4)
+
+  function dividir(a, b) {
+    debugger
+    return a / b
+  }
+
+  console.log(dividir(1, 2))
+  console.log(dividir(3, 5))
+  console.log(dividir(2, 0))
+</script>

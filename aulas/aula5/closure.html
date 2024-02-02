@@ -1,0 +1,14 @@
+
+<script>
+  function cumprimentador(prefixo, sufixo) {
+    return function(nome) {
+      return `${prefixo}${nome}${sufixo}`
+    }
+  }
+
+  const emIngles = cumprimentador('Hello, ', '!')
+  const emPortugues = cumprimentador('Olá, ', '.')
+
+  console.log(emIngles('George'))
+  console.log(emPortugues('Jorge'))
+</script>

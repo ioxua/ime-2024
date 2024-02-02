@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    console.log('var antes da declaração', batata)
+    // console.log('const antes da declaração', goiaba)
+  
+    var batata = "batata"
+    const goiaba = "goiaba"
+    let maçã = "maçã"
+    // const `👍` = "qe"
+  
+    console.log(batata, goiaba, maçã)
+
+    if (true) {
+      var varDoIf = "sim!"
+      const constDoIf = "não"
+    }
+
+    console.log('var depois do if', varDoIf)
+    // console.log('const depois do if', constDoIf)
+
+    function declararDentroDeFunc() {
+      var dentroDaFunc = "sim!"
+    }
+    declararDentroDeFunc()
+
+    console.log('var depois da função', dentroDaFunc)
+
+  </script>
+  <script>
+    console.log('dentro de outro <script>', batata)
+  </script>
+  
+</body>
+</html>
