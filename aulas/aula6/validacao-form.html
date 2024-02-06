@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de Forms!</title>
+  <link rel="stylesheet" href="css/validacao-form.css" />
+</head>
+<body>
+  <form id="form-a-validar" class="card" novalidate>
+    <div class="input-group">
+      <label for="nome-input">Nome</label>
+      <input type="text" name="nome" id="nome-input" required minlength="3" data-nome-e-sobrenome="true">
+      <!-- <span class="msg-erro">Este input está errado</span> -->
+    </div>
+    <div class="input-group">
+      <label for="dataFormacao-input">Data de formação</label>
+      <input type="date" name="dataFormacao" id="dataFormacao-input" required min="2006-02-06">
+    </div>
+    <div class="input-group">
+      <label for="email-input">E-mail</label>
+      <input type="email" name="email" id="email-input" required>
+    </div>
+    <div class="input-group">
+      <label for="newsletter-input">Cadastre-me na Newsletter</label>
+      <input type="checkbox" name="newsletter" id="newsletter-input">
+    </div>
+    <input type="submit" value="Enviar!">
+
+    <div>
+    </div>
+  </form>
+  <form id="form-vazio">
+    <h1>form vazio!</h1>
+    <input type="submit" value="enviar">
+  </form>
+  <script src="js/validacao-form.js"></script>
+</body>
+</html>

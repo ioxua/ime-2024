@@ -1,0 +1,48 @@
+form {
+  max-width: 450px;
+  margin: 0 auto;
+  /* background-color: red; */
+
+  label {
+    display: block;
+    font-size: .8rem;
+  }
+
+  .input-group {
+    margin-bottom: 8px;
+  }
+
+  .msg-erro {
+    color: red;
+    font-size: .6rem;
+  }
+
+  label:has(+ input[type="checkbox"]) {
+    /* background-color: red; */
+    display: unset;
+  }
+
+  .input-group:has(+ div > input[type="checkbox"]) {
+    /* background-color: red; */
+    /* display: unset; */
+    margin-bottom: 4px;
+  }
+
+  input[type=submit] {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+input.tem-erro {
+  border: 1px solid red;
+  color: red;
+}
+
+.card {
+  padding: 12px 16px;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px rgb(80, 80, 80);
+  background-color: rgb(238, 238, 238);
+}
