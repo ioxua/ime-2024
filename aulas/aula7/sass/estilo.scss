@@ -1,0 +1,16 @@
+@mixin tamanho($t) {
+    width: $t;
+    height: $t;
+}
+
+html {
+    background-color: red;
+}
+
+.quadrado2 {
+    @include tamanho(60px);
+
+    .filho {
+        @include tamanho(55px);
+    }
+}

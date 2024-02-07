@@ -1,12 +1,14 @@
 {
   "name": "@ioxua/verao-ime-2024",
   "scripts": {
-    "dev": "live-server aulas --port=42069"
+    "dev": "live-server aulas --port=42069",
+    "build:sass": "sass aulas/aula7/sass/estilo.scss aulas/aula7/css/estilo.css"
   },
   "author": "Yehoshua Oliveira <main@ioxua.com>",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.0.3",
+    "sass": "^1.70.0"
   }
 }

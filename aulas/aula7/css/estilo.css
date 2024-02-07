@@ -1,0 +1,15 @@
+html {
+  background-color: red;
+}
+
+.quadrado2 {
+  width: 60px;
+  height: 60px;
+}
+
+.quadrado2 .filho {
+  width: 55px;
+  height: 55px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
