@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{titulo}}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      header {
+        font-family: "Lobster Two", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pt-4 text-center fs-1 bg-body-secondary">Notícias</header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Notícias</a> -->
+
+        <button
+          class="navbar-toggler ms-auto me-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link 4</a></li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Notícias
+              </a>
+              <ul class="dropdown-menu">
+                {{linksNoticias}}
+              </ul>
+            </li>
+          </ul>
+          <a class="btn btn-outline-info" type="submit" href="#"
+            >Seja assinante!</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="row flex-column-reverse flex-md-row">
+      <aside class="col-12 col-md-4 col-lg-3">
+        <h1 class="px-3">Mais lidas</h1>
+        <div class="px-3 ps-md-3">
+          <a href="#" class="d-flex align-items-center border border-black border-2 rounded gap-2 pe-1">
+            <img src="https://placehold.co/400" class="" style="max-width: 35%">
+            <span>Lorem ipsum dolor sit amet</span>
+          </a>
+        </div>
+      </aside>
+
+      <article class="col">
+        <div class="px-3 pe-md-3">
+          <h1>{{tituloNoticia}}</h1>
+
+          {{corpo}}
+        </div>
+      </article>
+    </main>
+
+    <footer class="py-3 px-2 bg-dark text-light">
+      Todos os direitos reservados 1997-2024
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
